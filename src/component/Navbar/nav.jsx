@@ -6,7 +6,7 @@ const Navbar = () =>{
     const [showMenu,setShowMenu] = useState(false);
     return(
         <div className="navbar">
-            <p className="nav-logo">Nalaka<span>.me</span></p>
+            <p className="nav-logo">nalaka<span>.me</span></p>
             <div className="navmenu">
                 <Link className="desktopMenuListItem">Home</Link>
                 <Link className="desktopMenuListItem">About</Link>
