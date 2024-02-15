@@ -53,9 +53,13 @@
     .hello{
         font-size: 4.5vw;
     }
+
 }
 @media screen and (max-width:480px) {
     .bg{
         right: -30vw;
+    }
+    .introContent{
+        font-size: 8vw;
     }
 }
