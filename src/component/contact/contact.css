@@ -9,6 +9,20 @@
     align-items: center;
     justify-content: center;
 }
+.contactPageTitle{
+    display: flex;
+    justify-content: center;
+}
+.skillDes{
+    width: 80%;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+.skill-container{
+    height: 50vh;
+}
 #contactDes{
     padding: 1rem;
     font-size: medium;

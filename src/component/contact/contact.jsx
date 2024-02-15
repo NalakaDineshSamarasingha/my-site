@@ -22,7 +22,18 @@ const Contact = ()=>{
         );
     };
     return(
+        
         <div className="contactPage">
+        <div id="skills-slider">
+            <h1 className="contactPageTitle">My Skills</h1>
+            <p className="skillDes">
+                I am prefer to use and work using various technology.
+                These are few example for that.
+            </p>
+            <div className="skill-container">
+
+            </div>
+        </div>
         <div id="contact">
             <h1 className="contactPageTitle">Contact Me</h1>
             <span id="contactDes">Please fill out the form below to discuss any work opportunities</span>

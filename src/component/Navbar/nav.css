@@ -73,6 +73,12 @@
     background: rgb(30,30,30);
 
 }
+.active{
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+
+}
 @media screen and (max-width:750px){
     .mobo{
         display: flex;

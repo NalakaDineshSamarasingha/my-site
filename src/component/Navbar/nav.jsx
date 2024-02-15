@@ -8,22 +8,24 @@ const Navbar = () =>{
         <div className="navbar">
             <p className="nav-logo">nalaka<span>.me</span></p>
             <div className="navmenu">
-                <Link className="desktopMenuListItem">Home</Link>
-                <Link className="desktopMenuListItem">About</Link>
-                <Link className="desktopMenuListItem">Portfolio</Link>
-                <Link className="desktopMenuListItem">Client</Link>
+                <Link activeClass="active" to='intro' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem" >Home</Link>
+                <Link activeClass="active" to='skills' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">About</Link>
+                <Link activeClass="active" to='works' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">Portfolio</Link>
+                <Link activeClass="active" to='skills-slider' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">Skills</Link>
             </div>
-            <button className="nav-btn">
+            <button className="nav-btn" onClick={()=>{
+                document.getElementById('contact').scrollIntoView({behavior:'smooth'});
+            }}>
                <span>&#9993; </span>  Contact me
             </button>
 
             <p className="mobo" onClick={()=> setShowMenu(!showMenu)}>&#9776;</p>
             <div className="mobomenu"  style={{display: showMenu?'flex':'none'}}>
-                <Link className="listItem" onClick={()=>setShowMenu(false)} >Home</Link>
-                <Link className="listItem" onClick={()=>setShowMenu(false)} >About</Link>
-                <Link className="listItem" onClick={()=>setShowMenu(false)} >Portfolio</Link>
-                <Link className="listItem" onClick={()=>setShowMenu(false)} >Client</Link>
-                <Link className="listItem" onClick={()=>setShowMenu(false)} >Contact</Link>
+                <Link activeClass="active" to='intro' spy={true} smooth={true} offset={-100} duration={500} className="listItem" onClick={()=>setShowMenu(false)} >Home</Link>
+                <Link activeClass="active" to='skills' spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={()=>setShowMenu(false)} >About</Link>
+                <Link activeClass="active" to='works' spy={true} smooth={true} offset={-100} duration={500} className="listItem" onClick={()=>setShowMenu(false)} >Portfolio</Link>
+                <Link  activeClass="active" to='skills-slider' spy={true} smooth={true} offset={-100} duration={500}  className="listItem" onClick={()=>setShowMenu(false)} >Skills</Link>
+                <Link  activeClass="active" to='contact' spy={true} smooth={true} offset={-100} duration={500} className="listItem" onClick={()=>setShowMenu(false)} >Contact</Link>
             </div>
         </div>
     )
