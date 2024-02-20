@@ -22,7 +22,7 @@ const Portfolio = () => {
                             <img src={Ecommerce} alt="e-commerce" />
                             <p className="about-project">Simple e-commerce website using MERN Stack</p>
                         </span> 
-                            <p>Source Code:- <a onClick={()=> openInNewTab("https://github.com/NalakaDineshSamarasingha/Nike_Clone")}><img src={Git} alt="Link" style={{width:"20px"}}/></a></p>
+                            <p>Source Code:- <p onClick={()=> openInNewTab("https://github.com/NalakaDineshSamarasingha/Nike_Clone")}><img src={Git} alt="Link" style={{width:"20px"}}/></p></p>
                     </div>
                     <div className="project">
                         <span onClick = {() => openInNewTab("https://mern-nike-clone.netlify.app/")}>
@@ -30,7 +30,7 @@ const Portfolio = () => {
                             <img src={Ecommerce} alt="e-commerce" />
                             <p className="about-project">Simple e-commerce website using MERN Stack</p>
                         </span> 
-                            <p>Source Code:- <a onClick={()=> openInNewTab("https://github.com/NalakaDineshSamarasingha/Nike_Clone")}><img src={Git} alt="Link" style={{width:"20px"}}/></a></p>
+                            <p>Source Code:- <p onClick={()=> openInNewTab("https://github.com/NalakaDineshSamarasingha/Nike_Clone")}><img src={Git} alt="Link" style={{width:"20px"}}/></p></p>
                     </div>
                     <div className="project">
                         <span onClick = {() => openInNewTab("https://mern-nike-clone.netlify.app/")}>
@@ -38,7 +38,7 @@ const Portfolio = () => {
                             <img src={Ecommerce} alt="e-commerce" />
                             <p className="about-project">Simple e-commerce website using MERN Stack</p>
                         </span> 
-                            <p>Source Code:- <a onClick={()=> openInNewTab("https://github.com/NalakaDineshSamarasingha/Nike_Clone")}><img src={Git} alt="Link" style={{width:"20px"}}/></a></p>
+                            <p>Source Code:- <p onClick={()=> openInNewTab("https://github.com/NalakaDineshSamarasingha/Nike_Clone")}><img src={Git} alt="Link" style={{width:"20px"}}/></p></p>
                     </div>
                     <div className="project">
                         <span onClick = {() => openInNewTab("https://mern-nike-clone.netlify.app/")}>
@@ -46,7 +46,7 @@ const Portfolio = () => {
                             <img src={Ecommerce} alt="e-commerce" />
                             <p className="about-project">Simple e-commerce website using MERN Stack</p>
                         </span> 
-                            <p>Source Code:- <a onClick={()=> openInNewTab("https://github.com/NalakaDineshSamarasingha/Nike_Clone")}><img src={Git} alt="Link" style={{width:"20px"}}/></a></p>
+                            <p>Source Code:- <p onClick={()=> openInNewTab("https://github.com/NalakaDineshSamarasingha/Nike_Clone")}><img src={Git} alt="Link" style={{width:"20px"}}/></p></p>
                     </div>
                     <div className="project">
                         <span onClick = {() => openInNewTab("https://mern-nike-clone.netlify.app/")}>
@@ -54,7 +54,7 @@ const Portfolio = () => {
                             <img src={Ecommerce} alt="e-commerce" />
                             <p className="about-project">Simple e-commerce website using MERN Stack</p>
                         </span> 
-                            <p>Source Code:- <a onClick={()=> openInNewTab("https://github.com/NalakaDineshSamarasingha/Nike_Clone")}><img src={Git} alt="Link" style={{width:"20px"}}/></a></p>
+                            <p>Source Code:- <p onClick={()=> openInNewTab("https://github.com/NalakaDineshSamarasingha/Nike_Clone")}><img src={Git} alt="Link" style={{width:"20px"}}/></p></p>
                     </div>
                     <div className="project">
                         <span onClick = {() => openInNewTab("https://mern-nike-clone.netlify.app/")}>
@@ -62,7 +62,7 @@ const Portfolio = () => {
                             <img src={Ecommerce} alt="e-commerce" />
                             <p className="about-project">Simple e-commerce website using MERN Stack</p>
                         </span> 
-                            <p>Source Code:- <a onClick={()=> openInNewTab("https://github.com/NalakaDineshSamarasingha/Nike_Clone")}><img src={Git} alt="Link" style={{width:"20px"}}/></a></p>
+                            <p>Source Code:- <p onClick={()=> openInNewTab("https://github.com/NalakaDineshSamarasingha/Nike_Clone")}><img src={Git} alt="Link" style={{width:"20px"}}/></p></p>
                     </div>
                     
                 </div>
