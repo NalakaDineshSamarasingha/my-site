@@ -16,7 +16,7 @@ const Navbar = () =>{
             <button className="nav-btn" onClick={()=>{
                 document.getElementById('contact').scrollIntoView({behavior:'smooth'});
             }}>
-               <span>&#9993; </span>  Contact me
+                <span>&#9993; </span>  Contact me
             </button>
 
             <p className="mobo" onClick={()=> setShowMenu(!showMenu)}>&#9776;</p>
