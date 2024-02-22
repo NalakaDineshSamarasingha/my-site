@@ -2,6 +2,8 @@ import React from "react";
 import './portfolio.css'
 import Ecommerce from '../../assests/e-commerce.png';
 import Git from '../../assests/git.png'
+import Hand from '../../assests/hand.png';
+import Food from '../../assests/foodSite.png'
 
 
 export const openInNewTab = (url) => {
@@ -25,46 +27,21 @@ const Portfolio = () => {
                             <p>Source Code:- <p onClick={()=> openInNewTab("https://github.com/NalakaDineshSamarasingha/Nike_Clone")}><img src={Git} alt="Link" style={{width:"20px"}}/></p></p>
                     </div>
                     <div className="project">
-                        <span onClick = {() => openInNewTab("https://mern-nike-clone.netlify.app/")}>
-                            <h3 className="project-title">Nike Clone</h3>
-                            <img src={Ecommerce} alt="e-commerce" />
-                            <p className="about-project">Simple e-commerce website using MERN Stack</p>
+                        <span onClick = {() => openInNewTab("https://food-site-react.netlify.app/")}>
+                            <h3 className="project-title">FoodShop Site</h3>
+                            <img src={Food} alt="food-site" />
+                            <p className="about-project">UI Design of simple food sale site</p>
                         </span> 
-                            <p>Source Code:- <p onClick={()=> openInNewTab("https://github.com/NalakaDineshSamarasingha/Nike_Clone")}><img src={Git} alt="Link" style={{width:"20px"}}/></p></p>
+                            <p>Source Code:- <p onClick={()=> openInNewTab("https://github.com/NalakaDineshSamarasingha/food-site")}><img src={Git} alt="Link" style={{width:"20px"}}/></p></p>
                     </div>
                     <div className="project">
                         <span onClick = {() => openInNewTab("https://mern-nike-clone.netlify.app/")}>
-                            <h3 className="project-title">Nike Clone</h3>
-                            <img src={Ecommerce} alt="e-commerce" />
-                            <p className="about-project">Simple e-commerce website using MERN Stack</p>
+                            <h3 className="project-title">Hand Me Over</h3>
+                            <img src={Hand} alt="HandMeover" />
+                            <p className="about-project">Mern Project(Ongoing) Collab with team</p>
                         </span> 
-                            <p>Source Code:- <p onClick={()=> openInNewTab("https://github.com/NalakaDineshSamarasingha/Nike_Clone")}><img src={Git} alt="Link" style={{width:"20px"}}/></p></p>
+                            <p>Source Code:- <p onClick={()=> openInNewTab("https://github.com/NalakaDineshSamarasingha/HandMeOver")}><img src={Git} alt="Link" style={{width:"20px"}}/></p></p>
                     </div>
-                    <div className="project">
-                        <span onClick = {() => openInNewTab("https://mern-nike-clone.netlify.app/")}>
-                            <h3 className="project-title">Nike Clone</h3>
-                            <img src={Ecommerce} alt="e-commerce" />
-                            <p className="about-project">Simple e-commerce website using MERN Stack</p>
-                        </span> 
-                            <p>Source Code:- <p onClick={()=> openInNewTab("https://github.com/NalakaDineshSamarasingha/Nike_Clone")}><img src={Git} alt="Link" style={{width:"20px"}}/></p></p>
-                    </div>
-                    <div className="project">
-                        <span onClick = {() => openInNewTab("https://mern-nike-clone.netlify.app/")}>
-                            <h3 className="project-title">Nike Clone</h3>
-                            <img src={Ecommerce} alt="e-commerce" />
-                            <p className="about-project">Simple e-commerce website using MERN Stack</p>
-                        </span> 
-                            <p>Source Code:- <p onClick={()=> openInNewTab("https://github.com/NalakaDineshSamarasingha/Nike_Clone")}><img src={Git} alt="Link" style={{width:"20px"}}/></p></p>
-                    </div>
-                    <div className="project">
-                        <span onClick = {() => openInNewTab("https://mern-nike-clone.netlify.app/")}>
-                            <h3 className="project-title">Nike Clone</h3>
-                            <img src={Ecommerce} alt="e-commerce" />
-                            <p className="about-project">Simple e-commerce website using MERN Stack</p>
-                        </span> 
-                            <p>Source Code:- <p onClick={()=> openInNewTab("https://github.com/NalakaDineshSamarasingha/Nike_Clone")}><img src={Git} alt="Link" style={{width:"20px"}}/></p></p>
-                    </div>
-                    
                 </div>
             </div>
         </section>
