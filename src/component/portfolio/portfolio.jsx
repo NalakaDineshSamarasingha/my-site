@@ -26,7 +26,7 @@ const Portfolio = () => {
                             <p>Source Code:- <p onClick={()=> openInNewTab("https://github.com/NalakaDineshSamarasingha/Nike_Clone")}><img src={Git} alt="Link" style={{width:"20px"}}/></p></p>
                     </div>
                     <div className="project">
-                        <span onClick = {() => openInNewTab("https://mern-nike-clone.netlify.app/")}>
+                        <span onClick = {() => openInNewTab("https://projecthandmeover.netlify.app/")}>
                             <h3 className="project-title">Hand Me Over</h3>
                             <img src={Hand} alt="HandMeover" />
                             <p className="about-project">Mern Project(Ongoing) Collab with team</p>
