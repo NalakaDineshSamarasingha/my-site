@@ -27,14 +27,6 @@ const Portfolio = () => {
                             <p>Source Code:- <p onClick={()=> openInNewTab("https://github.com/NalakaDineshSamarasingha/Nike_Clone")}><img src={Git} alt="Link" style={{width:"20px"}}/></p></p>
                     </div>
                     <div className="project">
-                        <span onClick = {() => openInNewTab("https://food-site-react.netlify.app/")}>
-                            <h3 className="project-title">FoodShop Site</h3>
-                            <img src={Food} alt="food-site" />
-                            <p className="about-project">UI Design of simple food sale site</p>
-                        </span> 
-                            <p>Source Code:- <p onClick={()=> openInNewTab("https://github.com/NalakaDineshSamarasingha/food-site")}><img src={Git} alt="Link" style={{width:"20px"}}/></p></p>
-                    </div>
-                    <div className="project">
                         <span onClick = {() => openInNewTab("https://mern-nike-clone.netlify.app/")}>
                             <h3 className="project-title">Hand Me Over</h3>
                             <img src={Hand} alt="HandMeover" />
