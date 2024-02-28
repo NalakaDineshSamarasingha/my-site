@@ -1,9 +1,8 @@
 import React from "react";
 import './portfolio.css'
 import Ecommerce from '../../assests/e-commerce.png';
-import Git from '../../assests/git.png'
-import Hand from '../../assests/hand.png';
-import Food from '../../assests/foodSite.png'
+import Git from '../../assests/git.png' 
+import Hand from '../../assests/hand.png'; 
 
 
 export const openInNewTab = (url) => {
