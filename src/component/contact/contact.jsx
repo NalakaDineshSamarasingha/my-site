@@ -61,9 +61,9 @@ const Contact = ()=>{
             <h1 className="contactPageTitle">Contact Me</h1>
             <span id="contactDes">Please fill out the form below to discuss any work opportunities</span>
             <form className="contactForm" ref={form} onSubmit={sendEmail}>
-                <input type="text" className="name" placeholder="Your Name" name="from_name"/>
-                <input type="email" className="email" placeholder="Your Email" name="from_email" />
-                <textarea name="message" rows="5" className="massage" placeholder="Your Message" ></textarea>
+                <input type="text" className="name" placeholder="Your Name" name="from_name" required/>
+                <input type="email" className="email" placeholder="Your Email" name="from_email" required/>
+                <textarea name="message" rows="5" className="massage" placeholder="Your Message" required></textarea>
                 <button className="submitbtn" type="submit" value="send">Submit</button>
                 <div className="links">
                     <img src={Facebook} alt="Facebook" style={{width:"30px"}} className="link"/>

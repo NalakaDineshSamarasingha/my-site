@@ -52,19 +52,22 @@
     object-fit: cover;
     color: red;
     font-size: 2rem;
+    cursor: pointer;
 }
 .mobomenu{
     position: absolute;
     top: 4rem;
-    right: 2rem;
     z-index: 2;
     display: flex;
     flex-direction: column;
+    width: 50%;
+    right: 2rem;
     padding: 0.5rem;
-    height: fit-content;
-    min-width: 15rem;
+    margin: 0;
+    height: calc(100vh - 4rem);
     background: rgb(40,40,40);
     border-radius: 1rem;
+    text-align: center;
 }
 .listItem{
     color: white;
@@ -79,6 +82,7 @@
     border-bottom: 3px solid yellow;
 
 }
+
 @media screen and (max-width:750px){
     .mobo{
         display: flex;
