@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
 .intro{
     height: calc(100vh - 5rem);
     width: 100vw;
@@ -13,6 +15,7 @@
     object-fit: cover;
     z-index: -1;
     height: 100vh;
+    animation: fadeIn 1s 1.5s backwards;
 }
 .introContent{
     height: 100vh;
@@ -23,6 +26,33 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    animation: fadeIn 1s 1.5s backwards ;
+    
+    &::before{
+        content: '<h1>';
+        font-family: "La Belle Aurore", cursive;
+        color: #ffd700;
+        font-size: 18px;
+        position: absolute;
+        margin-top: -10px;
+        top: 5rem;
+        left: 2rem;
+        opacity: 0.6;
+        animation: fadeIn 1s 0.1s backwards;
+    }
+
+    &::after{
+        content: '</h1>';
+        font-family: "La Belle Aurore", cursive;
+        color: #ffd700;
+        font-size: 18px;
+        position: absolute;
+        margin-top: 0 ;
+        right: 2rem ;
+        bottom: 2rem ;
+        animation: fadeIn 1s 1.7s backwards;
+        opacity: 0.6;
+    }
 }
 .hello{
     font-size: 1.75rem;
@@ -61,5 +91,15 @@
     }
     .introContent{
         font-size: 8vw;
+    }
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
     }
 }
