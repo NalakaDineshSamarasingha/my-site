@@ -1,12 +1,12 @@
 import {useState,useEffect} from 'react';
 import './App.css';
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Navbar from './component/Navbar/nav';
-import Intro from './component/Intro/intro';
-import Skill from './component/skills/skills';
 import Footer from './component/footer/footer';
-import Contact from './component/contact/contact';
-import Portfolio from './component/portfolio/portfolio';
+
 import ClipLoader from "react-spinners/GridLoader";
+import HomePage from './pages/home';
+import Resume from './pages/resume';
 
 function App() {
   const [loading,setLoading] = useState(false);
@@ -24,14 +24,14 @@ function App() {
           <ClipLoader color={"#700000"} loading={loading} size={20} aria-label="Loading Spinner" data-testid="loader"/>
         </div>
         :
-        <>
+        <BrowserRouter>
           <Navbar/>
-          <Intro/>
-          <Skill/>
-          <Portfolio/>
-          <Contact/>
+          <Routes>
+            <Route path='/' element={<HomePage/>}/>
+            <Route path='/resume' element={<Resume/>} />
+          </Routes>
           <Footer/>
-        </>
+        </BrowserRouter>
       }
 
     </div>

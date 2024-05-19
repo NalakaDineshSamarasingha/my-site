@@ -1,0 +1,142 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    width: 100% ;
+}
+.resume{
+    font-size: 1.4rem;
+    text-shadow: 1px 1px   #00FF00;
+    width: fit-content;
+    overflow: hidden; 
+    border-right: .15em solid #007C41; 
+    white-space: nowrap; 
+    margin: 2rem auto; 
+    letter-spacing: .20em; 
+    animation: 
+        typing 3.5s steps(50, end),
+        blink-caret .75s step-end infinite;
+}
+.img{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    div{
+        display: flex;
+        width: fit-content;
+        flex-direction: column;
+        background: rgb(40,40,40);
+        padding: 3rem 5rem;
+        border-radius: 1rem;
+    }
+    div h1{
+        text-transform: uppercase;
+        letter-spacing: 0.5rem;
+    }
+    hr{
+        margin: 0.8rem 0;
+        width: 14rem;
+        height: 1px;
+        border: 0;
+        border-top: 3px solid #008076;
+    }
+}
+.img img{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    
+}
+
+.next{
+    position: fixed;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+    background: #009862;
+    color: white;
+    right: 0;
+    bottom: 0;
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 2rem auto;
+
+}
+
+hr{
+    margin: 0.8rem 0;
+    width: 14rem;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #008076;
+}   
+
+.binary{
+    padding: 0.8rem 0;
+    letter-spacing: 0.2rem;
+    color: #008076;
+    text-align: center;
+}
+
+.summery{
+    text-align: justify;
+}
+
+@media screen and (max-width:1000px){
+    .img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:800px){
+    .about-me{
+        width: 90%;
+    }
+}
+@media screen and (max-width:600px){
+    .container{
+        div h1{
+            font-size: 1rem;
+        }
+        h3{
+            font-size: 0.8rem;
+        }
+        div{
+            padding: 1.5rem 2rem;
+        }
+    }
+    .about-me{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:400px){
+    .container{
+        div h1{
+            font-size: 0.8rem;
+        }
+        
+    }
+    .about-me{
+        width: 90%;
+    }
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 25% }
+  }
+  
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #007C41; }
+}
