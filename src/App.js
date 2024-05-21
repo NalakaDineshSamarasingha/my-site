@@ -3,7 +3,6 @@ import './App.css';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Navbar from './component/Navbar/nav';
 import Footer from './component/footer/footer';
-
 import ClipLoader from "react-spinners/GridLoader";
 import HomePage from './pages/home';
 import Resume from './pages/resume';
@@ -16,6 +15,7 @@ function App() {
       setLoading(false);
     },5000)
   },[])
+
   return (
     <div className="App">
       {

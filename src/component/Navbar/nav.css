@@ -18,6 +18,8 @@
     font-size: 1.8rem;
     font-family: 'Pacifico', cursive;
     cursor: pointer;
+    text-decoration: none;
+    color: white;
 }
 .nav-logo span{
     color: red;
